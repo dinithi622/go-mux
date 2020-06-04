@@ -1,0 +1,14 @@
+os : macOS
+
+language : go
+
+go:
+  - 1.14.3
+  
+services:
+  - postgresql
+  - docker
+  
+script:
+  #test the code
+  - go test -v
