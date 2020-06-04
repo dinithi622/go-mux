@@ -1,4 +1,4 @@
-os : macOS
+os : linux
 
 language : go
 
