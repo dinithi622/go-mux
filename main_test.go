@@ -19,7 +19,7 @@ var a App
 func TestMain(m *testing.M) {
     a.Initialize(
         os.Getenv("postgres"),
-        os.Getenv("Aasdfg"),
+        os.Getenv("asdfg"),
         os.Getenv("postgres"))
 
     ensureTableExists()
