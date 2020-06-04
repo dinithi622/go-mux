@@ -17,10 +17,7 @@ import (
 var a App
 
 func TestMain(m *testing.M) {
-    a.Initialize(
-        os.Getenv("postgres"),
-        os.Getenv("asdfg"),
-        os.Getenv("postgres"))
+    a.Initialize("postgres","asdfg","postgres")
 
     ensureTableExists()
     code := m.Run()
